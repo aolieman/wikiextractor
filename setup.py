@@ -17,5 +17,8 @@ setup(
         'console_scripts': [
             'wikiextractor = WikiExtractor:main'
         ]
-    }
+    },
+    install_requires=[
+        'bz2file'    
+    ]
 )
