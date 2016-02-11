@@ -33,7 +33,8 @@ import argparse
 from itertools import izip
 import logging, traceback
 import urllib
-import bz2, gzip
+import gzip
+import bz2file as bz2
 from htmlentitydefs import name2codepoint
 import Queue, threading, multiprocessing
 
